@@ -7,6 +7,7 @@ import { Login } from "./pages/Login";
 import { Contact } from "./pages/Contact";
 import { About } from "./pages/About";
 import { Routes } from "react-router-dom";
+import IdeaForm from "./pages/IdeaForm";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
+        <Route path="/idea-submission-form" element={ <IdeaForm /> }></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/signup" element={<Signup />}></Route>
         <Route path="/contact" element={<Contact />}></Route>

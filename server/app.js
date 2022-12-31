@@ -132,7 +132,7 @@ app.get('/signup',function(req, res){
 
 
 app.post('/register' , async (req,res)=>{
- 
+   
     const { name , email , phone , work , password , cpassword} = req.body
     console.log(req.body)
     
@@ -147,6 +147,9 @@ app.post('/register' , async (req,res)=>{
                                          password:req.body.user.password,
                                         cpassword:req.body.user.cpassword
                                       })
+
+                                      
+            //   const token  = jwt.sign({email:})
         
                user.save(function(err){
                  if(err){
@@ -181,6 +184,8 @@ app.post('/register' , async (req,res)=>{
             bcrypt.compare(password, user.password).then(async isMatch=>{
                 
                 if(isMatch){
+
+                    // const token : jwt.sign({email:user.email , id:user._id},"mynameisrajatchaudhary")
                     //   token = await userLogin.generateAuthToken();
                     // console.log(token)
                    
