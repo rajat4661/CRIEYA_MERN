@@ -6,6 +6,8 @@ import IdeaForm from "./IdeaForm";
 export const Home = () => {
   return (
     <>
+
+      
       <Routes>
         <Route path="/idea-submission-form" element={<IdeaForm />} />
       </Routes>
