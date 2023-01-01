@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+
+#Landing-image{
+  height: 10px;
+  background: red;
+}

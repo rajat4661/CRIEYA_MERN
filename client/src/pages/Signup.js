@@ -37,15 +37,11 @@ export const Signup = () => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        // name:user.name , email:user.email , phone:user.phone , work:user.work , password:user.password, cpassword:user.cpassword
-        // name:"rajat"
+        
         user,
       }),
     });
-    // if( name && email && work  &&phone && password && (password === cpassword)){
-    // await axios.post("/register" , user)
-
-    // }
+    
 
     const data = await res.json();
     if (data.status === 422 || !data) {
