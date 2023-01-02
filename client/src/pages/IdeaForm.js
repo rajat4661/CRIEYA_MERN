@@ -1,8 +1,11 @@
 import React from 'react'
+import IdeaSubmissionForm from '../components/IdeaSubmissionForm';
 
 const IdeaForm = () => {
   return (
-    <div>IdeaForm</div>
+    <div>
+      <IdeaSubmissionForm />
+    </div>
   )
 }
 
