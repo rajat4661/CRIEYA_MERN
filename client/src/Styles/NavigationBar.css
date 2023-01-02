@@ -9,9 +9,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background: blue;
+    background: #fff;
     padding: 20px 80px;
-    box-shadow: 0 5px 15px ;
+    box-shadow: 0 1px 10px ;
+    border-radius: 0 0 15px 15px;
 
 }
 
@@ -35,7 +36,7 @@
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 600;
-    color:#ffff;
+    color:#000;
     transition: 0.3s ease-in-out;
 
 }
@@ -50,9 +51,10 @@
 #Navigation-items li a.active::after{
     content: "";
     width: 30%;
-    height: 2px;
+    height: 3px;
     background: #17cf97;
     position: absolute;
+    border-radius: 3px;
     bottom: -4px;
     left: 20px;
 }
