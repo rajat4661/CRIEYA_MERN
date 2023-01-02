@@ -1,6 +1,6 @@
 import "./App.css";
 import { Route } from "react-router-dom";
-import { Navbar } from "./components/lib/Navbar";
+
 import { Home } from "./pages/Home";
 import { Signup } from "./pages/Signup";
 import { Login } from "./pages/Login";
@@ -8,11 +8,14 @@ import { Contact } from "./pages/Contact";
 import { About } from "./pages/About";
 import { Routes } from "react-router-dom";
 import IdeaForm from "./pages/IdeaForm";
+import  NavigationBar  from "./components/lib/NavigationBar";
+// import { LandingPage } from "./pages/LandingPage";
 
 function App() {
   return (
     <>
-      <Navbar />
+  <NavigationBar />
+      
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
