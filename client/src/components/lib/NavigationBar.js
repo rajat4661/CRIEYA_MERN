@@ -29,8 +29,8 @@ class NavigationBar extends Component {
               }
             >
               <li>
-                <NavLink className={this.state.clicked ? "active": ""} to="/">
-                  {" "}
+                <NavLink  to="/">
+                  
                   Home
                 </NavLink>
               </li>
