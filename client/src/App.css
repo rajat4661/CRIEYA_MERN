@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+  /* border: 10rem solid #000; */
+  background-image: url("./assets/images/hero_section_image.svg");
+  height: 100vh;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
 }
 
 .App-logo {
