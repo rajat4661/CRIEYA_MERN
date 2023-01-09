@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 import "../../Styles/NavigationBar.css";
 
-import logo from "../../images/logo.png";
+import logo from "../..//assets/images/nav_logo.svg";
 
 class NavigationBar extends Component {
   state = { clicked: false };
@@ -16,6 +16,37 @@ class NavigationBar extends Component {
     return (
       <>
         <nav id="Navigation">
+          <div>
+            <ul
+              id="Navigation-items"
+              className={
+                this.state.clicked
+                  ? "#Navigation-items active"
+                  : "#Navigation-items"
+              }
+            >
+              <li>
+                <NavLink className="underscore" to="/">
+                  Home
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="underscore" to="/about">
+                  About{" "}
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="underscore" to="/contact">
+                  Research & Innovation
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="underscore" to="/contact">
+                  Product
+                </NavLink>
+              </li>
+            </ul>
+          </div>
           <a to="index.html">
             <img src={logo} alt="" />
           </a>
@@ -28,27 +59,20 @@ class NavigationBar extends Component {
                   : "#Navigation-items"
               }
             >
-              <li>
-                <NavLink  to="/">
-                  
-                  Home
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/about"> About </NavLink>
-              </li>
-              <li>
-                <NavLink to="/contact"> Contact</NavLink>
-              </li>
-              <li>
-                <NavLink to="/signup"> Signup</NavLink>
-              </li>
-              <li>
-                <NavLink to="/login"> Login</NavLink>
-              </li>
+              <div className="login-register">
+                <li>
+                  <NavLink className="underscore" to="/login">
+                    Sign In
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="register" to="/signup">
+                    Register
+                  </NavLink>
+                </li>
+              </div>
             </ul>
           </div>
-
           <div id="Navigation-mobile" onClick={this.handleClick}>
             <i
               id="bar"
