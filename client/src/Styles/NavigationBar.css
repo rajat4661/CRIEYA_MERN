@@ -16,7 +16,7 @@
     padding: 0 20px;
     box-shadow: 0 1px 10px;
     border-radius: 0 0 15px 15px;
-    height: 14vh;
+    height: 10vh;
 }
 
 #Navigation-items {
@@ -28,16 +28,21 @@
 
 #Navigation-items {
     margin: 0;
+    padding: 0 0 0 50px;
+    gap: 3rem;
+}
+
+.img-logo {
+    height: 55px;
 }
 
 .login-register {
     display: flex;
-
+    gap: 3rem;
 }
 
 #Navigation-items li {
     list-style: none;
-    padding: 0 20px;
     position: relative;
 }
 
@@ -60,21 +65,13 @@
 #Navigation-items li .underscore:hover::after,
 #Navigation-items li .underscore.active::after {
     content: "";
-    width: 30%;
+    width: -webkit-fill-available;
     height: 3px;
     background: #fff;
     position: absolute;
     border-radius: 3px;
     bottom: -4px;
-    left: 20px;
-}
-
-#Navigation-mobile i {
-    color: #000;
-}
-
-#Navigation-mobile {
-    display: none;
+    left: 0;
 }
 
 .register {
@@ -92,6 +89,14 @@
     backdrop-filter: blur(12.5px) !important;
     border-radius: 33px !important;
     padding: 8px 23px;
+}
+
+#Navigation-mobile i {
+    color: #000;
+}
+
+#Navigation-mobile {
+    display: none;
 }
 
 
