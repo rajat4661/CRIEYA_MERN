@@ -5,16 +5,17 @@
 }
 
 #Navigation {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 0.8fr 0.6fr 0.35fr;
     align-items: center;
-    justify-content: space-between;
+    justify-items: self-start;
     background-color: rgba(27, 9, 58, 0.5);
     border: 1px solid rgba(223, 223, 223, 0.5);
     backdrop-filter: blur(25px);
-    padding: 20px 50px;
+    padding: 0 20px;
     box-shadow: 0 1px 10px;
     border-radius: 0 0 15px 15px;
+    height: 15vh;
 }
 
 #Navigation-items {
@@ -24,27 +25,39 @@
     justify-content: center;
 }
 
+#Navigation-items {
+    margin: 0;
+}
+
+.login-register {
+    display: flex;
+
+}
+
 #Navigation-items li {
     list-style: none;
     padding: 0 20px;
     position: relative;
 }
 
-#Navigation-items li a {
+#Navigation-items li .underscore {
     text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
     transition: 0.3s ease-in-out;
-
 }
 
-#Navigation-items li a:hover, #Navigation-items li a:active {
+#Navigation-items li .underscore:hover, #Navigation-items li a:active {
     color: #fff;
 }
 
-#Navigation-items li a:hover::after,
-#Navigation-items li a.active::after {
+#Navigation-items li .underscore:hover::after,
+#Navigation-items li .underscore.active::after {
     content: "";
     width: 60%;
     height: 3px;
@@ -62,6 +75,24 @@
 #Navigation-mobile {
     display: none;
 }
+
+.register {
+    all: unset;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    background: #A26BFF !important;
+    box-shadow: 0px 4px 55px rgba(188, 149, 255, 0.6) !important;
+    backdrop-filter: blur(12.5px) !important;
+    border-radius: 33px !important;
+    padding: 8px 23px;
+}
+
 
 @media screen and (max-width:769px) {
     #Navigation-items {
