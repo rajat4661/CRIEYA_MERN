@@ -48,7 +48,7 @@ class NavigationBar extends Component {
             </ul>
           </div>
           <a to="index.html">
-            <img src={logo} alt="" />
+            <img className="img-logo" src={logo} alt="" />
           </a>
           <div>
             <ul
