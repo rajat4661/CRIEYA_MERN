@@ -21,6 +21,7 @@ const HeroSection = () => {
         </div>
 
         <div className="hero-right">
+          <div hero-right-container>
               <div className="crieya">CRiEYA</div>
               <div className="idea-box">
                 <span>
@@ -33,7 +34,7 @@ const HeroSection = () => {
                 </div>
               </div>
               <div className="web-portal">Web Portal</div>
-
+          </div>
 
           
         </div>
