@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   width: 100%;
+  overflow-x: hidden;
 }
 .App {
   background-image: url("./assets/images/hero_section_image.svg");
