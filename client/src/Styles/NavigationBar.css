@@ -5,8 +5,6 @@
 }
 
 #Navigation {
-    /* display: grid;
-    grid-template-columns: 0.9fr 0.7fr 0.45fr; */
     display: flex;
     align-items: center;
     gap: 30px;
@@ -14,7 +12,7 @@
     background-color: rgba(27, 9, 58, 0.5);
     border: 1px solid rgba(223, 223, 223, 0.5);
     backdrop-filter: blur(25px);
-    padding: 0 20px;
+    padding: 0 2rem;
     box-shadow: 0 1px 10px;
     border-radius: 0 0 15px 15px;
     height: 10vh;
@@ -29,12 +27,13 @@
 
 #Navigation-items, #Navigation-items-right {
     margin: 0;
-    padding: 0 0 0 50px;
+    padding: 0;
     gap: 3rem;
 }
 
 .img-logo {
     height: 55px;
+    transform: translateX(-8.5rem);
 }
 
 .login-register {
@@ -107,22 +106,24 @@
 }
 
 #Navigation-mobile {
-    display: block;
+    display: none;
 }
 
 @media screen and (max-width: 1445px) {
     #Navigation-items {
-        margin: 0;
-        padding: 0 0 0 30px;
         gap: 2rem;
+    }
+    .img-logo {
+        transform: translateX(-7rem);
     }
 }
 
 @media screen and (max-width: 1240px) {
     #Navigation-items {
-        margin: 0;
-        padding: 0;
-        gap: 2rem;
+        gap: 1.2rem;
+    }
+    .img-logo {
+        transform: translateX(-5rem);
     }
 }
 
@@ -148,6 +149,10 @@
         width: 100%;
     }
 
+    .img-logo {
+        transform: translateX(0);
+    }
+
     #Navigation-items.active {
         right: 0px;
     }
@@ -170,5 +175,26 @@
     #Navigation-items {
         right: -80%;
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .img-logo {
+        transform: translateX(1.5rem);
+        width: 100px;
+    }
+    .sign-in {
+        display: none;
+    }
+    #Navigation {
+        padding: 20px 20px;
+    }
+    .register { 
+        padding: 6px 15px;
+       font-size: 12px;
+    }
+    #Navigation-mobile i {
+        font-size: 16px;
+        cursor: pointer;
     }
 }
