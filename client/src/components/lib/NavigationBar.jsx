@@ -52,11 +52,11 @@ class NavigationBar extends Component {
           </a>
           <div>
             <ul
-              id="Navigation-items"
+              id="Navigation-items-right"
               className={
                 this.state.clicked
-                  ? "#Navigation-items active"
-                  : "#Navigation-items"
+                  ? "#Navigation-items-right active"
+                  : "#Navigation-items-right"
               }
             >
               <div className="login-register">
