@@ -3,7 +3,9 @@ import { NavLink } from "react-router-dom";
 
 import "../../Styles/NavigationBar.css";
 
-import logo from "../..//assets/images/nav_logo.svg";
+import logo from "../../assets/images/nav_logo.svg";
+import hamburger from "../../assets/images/hamburger.svg";
+import cross from "../../assets/images/cross.svg";
 
 class NavigationBar extends Component {
   state = { clicked: false };
@@ -16,6 +18,11 @@ class NavigationBar extends Component {
     return (
       <>
         <nav id="Navigation">
+        <div id="Navigation-mobile" onClick={this.handleClick}>
+            <i
+              id="bar"
+            >{this.state.clicked ? <img src={cross} /> : <img src={hamburger} />}</i>
+          </div>
           <div>
             <ul
               id="Navigation-items"
@@ -61,7 +68,7 @@ class NavigationBar extends Component {
             >
               <div className="login-register">
                 <li>
-                  <NavLink className="underscore" to="/login">
+                  <NavLink className="underscore sign-in" to="/login">
                     Sign In
                   </NavLink>
                 </li>
@@ -72,12 +79,6 @@ class NavigationBar extends Component {
                 </li>
               </div>
             </ul>
-          </div>
-          <div id="Navigation-mobile" onClick={this.handleClick}>
-            <i
-              id="bar"
-              className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}
-            ></i>
           </div>
         </nav>
       </>
