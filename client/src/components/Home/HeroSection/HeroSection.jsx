@@ -1,8 +1,8 @@
 import React from "react";
 import "./HeroSection.css";
 import crieyawithmit from '../../../assets/images/crieya_with_mit.svg'
-
-
+import HeroBulb from "../../../assets/images/bulb.svg"
+import BlurLayer from "../../../assets/images/hero_section_blur_layer.png"
 
 const HeroSection = () => {
   return (
@@ -13,8 +13,7 @@ const HeroSection = () => {
                       <img src={crieyawithmit} alt="" />
               </div>
               <div className="hero-left-bottom">
-              
-                      
+                <img src={HeroBulb} alt="" />                      
               </div>
 
 
@@ -26,19 +25,20 @@ const HeroSection = () => {
               <div className="idea-box">
                 <span>
                 <p>Cracked a Problem ?</p>
-                <p >Let it benefit the world</p>
+                <p className="light">Let it benefit the world,</p>
                 </span>
 
                 <div className="submitidea">
                         Submit an Idea
                 </div>
               </div>
-              <div className="web-portal">Web Portal</div>
-          </div>
-
-          
+              <div className="crieya">Web Portal</div>
+          </div>          
         </div>
       </div>
+        <div className="blur-effect">
+          <img src={BlurLayer} alt="" />
+        </div>
     </>
   );
 };
