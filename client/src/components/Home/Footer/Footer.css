@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700&family=Seymour+One&display=swap');
+/* #Footer , .footer-left , .footer-right , 
+.footer-quick-links , .footer-socials,
+.links{
+    border: 2px solid red;
+} */
+
+#Footer{
+
+width: 100%;
+height: 24rem;
+
+
+background: #0E0E0E;
+
+display: flex;
+flex-direction: row;
+}
+
+.footer-left{
+    display: flex;
+    width: 40%;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+
+}
+
+.footer-quick-links , .footer-socials{
+    width: 100%;
+}
+
+.footer-quick-links{
+    height: 12rem;
+    display: flex;
+    
+}
+
+.links{
+    width: 100%;
+    height: 100%;
+    padding-top: 1.5rem;
+}
+ .links-heading{
+    text-align: center;
+    line-height: 3rem;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-weight: 700;
+     
+     font-style: normal;
+     font-size: 1rem;
+
+
+ }
+
+ 
+.links ul {
+    list-style-type: none;
+    text-align: center;
+}
+ .links ul li a{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 500;
+    line-height: 2rem;
+
+
+text-align: center;
+
+color: #8996A0;
+    
+ }
+
+/* Footer socials links  */
+.footer-socials{
+    height: 7rem;
+}
+
+textarea {
+    resize: none;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+
+
+.svg-inline--fa {
+  vertical-align: -0.200em;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+  display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  /* padding: 15px 15px; */
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 1.7em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  /* background: #3b5998; */
+  background: black;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  /* color: black; */
+  color: #3b5998;
+
+  background: #ffff;
+  
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  /* background: #55acee; */
+  background: black;
+
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  /* color: black; */
+  color: #55acee;
+
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  /* background: #007bb5; */
+  background: black;
+
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  /* background: #fefefe; */
+  background: #ffff; 
+
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.youtube {
+  /* background: #bb0000; */
+  background: black;
+
+}
+
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+  color: #bb0000;
+  /* color: #fcfbfb; */
+
+  background: #fefefe;
+  /* border-color: #bb0000; */
+}
+
+.rounded-social-buttons .social-button.instagram {
+  /* background: #125688; */
+  background: black;
+
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #d62976;
+  background: #fefefe;
+  border-color: #125688;
+}
+
+
+
+
+
