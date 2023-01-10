@@ -1,8 +1,8 @@
-.hero-container , .hero-left , .hero-right , .hero-left-top, 
+/* .hero-container , .hero-left , .hero-right , .hero-left-top, 
 .hero-left-bottom
 {
     border: 1px solid red;
-}
+} */
 
 .hero-container{
 
@@ -16,6 +16,7 @@
     width: 40%;
     display: flex;
     flex-direction: column;
+    
 }
 
 .hero-right{
@@ -23,14 +24,105 @@
 }
 
 .hero-left-top{
+    display: flex;
     width: 100%;
     height: 20%;
+   
 
+}
+
+.hero-left-top img{
+    align-items: center;
+    height: 150px;
+    width: 280px;
+    /* padding-left: 10px; */
+    margin-left: 2.5rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-left-bottom{
     width: 100%;
     height: 80%;
+    background-image: url(../../../assets/images/buld.svg);
+    background-size: contain ;
+    background-position-x: right;
+    background-repeat: no-repeat;
+  
 
 }
 
+
+.hero-right .idea-box{
+    width:29rem;
+height: 270px;
+display: flex;
+align-items: center;
+margin: auto;
+
+/* left: 1065px;
+top: 356px; */
+
+background: radial-gradient(100% 119.72% at 100% 0%, rgba(162, 107, 255, 0.34) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(62.81% 150.41% at 7.1% 87.18%, rgba(255, 182, 182, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(255, 255, 255, 0.38);
+box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+backdrop-filter: blur(17px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 81px;
+}
+.idea-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.idea-box p{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 38px;
+text-align: center;
+
+
+color: #4C3E63;
+}
+
+
+
+.submitidea{
+    width: 70%;
+height: 50px;
+align-self: center;
+
+
+background: #A26BFF;
+box-shadow: 0px 4px 55px #BC95FF;
+border-radius: 24px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 44px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.crieya , .web-portal{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 155px;
+line-height: 100%;
+/* or 562px */
+
+text-align: center;
+
+color: rgba(255, 255, 255, 0.49);
+
+border: 1px solid rgba(255, 255, 255, 0.5);
+}
