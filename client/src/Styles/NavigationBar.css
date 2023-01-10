@@ -6,53 +6,99 @@
 
 #Navigation {
     display: flex;
-    flex-direction: row;
     align-items: center;
+    gap: 30px;
     justify-content: space-between;
-    background: rgba(27, 9, 58, 0.5);
+    background-color: rgba(27, 9, 58, 0.5);
     border: 1px solid rgba(223, 223, 223, 0.5);
     backdrop-filter: blur(25px);
-    padding: 20px 50px;
+    padding: 0 2rem;
     box-shadow: 0 1px 10px;
     border-radius: 0 0 15px 15px;
+    height: 10vh;
 }
 
-#Navigation-items {
+#Navigation-items, #Navigation-items-right {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-#Navigation-items li {
+#Navigation-items, #Navigation-items-right {
+    margin: 0;
+    padding: 0;
+    gap: 3rem;
+}
+
+.img-logo {
+    height: 55px;
+    transform: translateX(-8.5rem);
+}
+
+.login-register {
+    display: flex;
+    gap: 3rem;
+}
+
+#Navigation-items li, #Navigation-items-right li {
     list-style: none;
-    padding: 0 20px;
     position: relative;
 }
 
-#Navigation-items li a {
+#Navigation-items li .underscore {
     text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
     transition: 0.3s ease-in-out;
-
 }
 
-#Navigation-items li a:hover, #Navigation-items li a:active {
+#Navigation-items-right li .underscore {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: 0.3s ease-in-out;
+}
+
+#Navigation-items li .underscore:hover, #Navigation-items li a:active, #Navigation-items-right li .underscore:hover, #Navigation-items-right li a:active {
     color: #fff;
 }
 
-#Navigation-items li a:hover::after,
-#Navigation-items li a.active::after {
+#Navigation-items li .underscore:hover::after, #Navigation-items-right li .underscore:hover::after,
+#Navigation-items li .underscore.active::after, #Navigation-items-right li .underscore.active::after {
     content: "";
-    width: 60%;
+    width: -webkit-fill-available;
     height: 3px;
     background: #fff;
     position: absolute;
     border-radius: 3px;
     bottom: -4px;
-    left: 20px;
+    left: 0;
+}
+
+.register {
+    all: unset;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF !important;
+    background: #A26BFF !important;
+    box-shadow: 0px 4px 55px rgba(188, 149, 255, 0.6) !important;
+    backdrop-filter: blur(12.5px) !important;
+    border-radius: 33px !important;
+    padding: 8px 23px;
 }
 
 #Navigation-mobile i {
@@ -63,7 +109,25 @@
     display: none;
 }
 
-@media screen and (max-width:769px) {
+@media screen and (max-width: 1445px) {
+    #Navigation-items {
+        gap: 2rem;
+    }
+    .img-logo {
+        transform: translateX(-7rem);
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    #Navigation-items {
+        gap: 1.2rem;
+    }
+    .img-logo {
+        transform: translateX(-5rem);
+    }
+}
+
+@media screen and (max-width:998px) {
     #Navigation-items {
         display: flex;
         flex-direction: column;
@@ -82,6 +146,11 @@
 
     #Navigation {
         padding: 20px 40px;
+        width: 100%;
+    }
+
+    .img-logo {
+        transform: translateX(0);
     }
 
     #Navigation-items.active {
@@ -106,5 +175,26 @@
     #Navigation-items {
         right: -80%;
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .img-logo {
+        transform: translateX(1.5rem);
+        width: 100px;
+    }
+    .sign-in {
+        display: none;
+    }
+    #Navigation {
+        padding: 20px 20px;
+    }
+    .register { 
+        padding: 6px 15px;
+       font-size: 12px;
+    }
+    #Navigation-mobile i {
+        font-size: 16px;
+        cursor: pointer;
     }
 }
