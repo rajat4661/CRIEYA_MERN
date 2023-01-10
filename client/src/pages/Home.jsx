@@ -12,11 +12,11 @@ const Home = () => {
       </Routes>
       <div>
         <HeroSection />
-        <p className="pt-5">WELCOME</p>
+        {/* <p className="pt-5">WELCOME</p>
         <h1>We Are The MERN Developer</h1>
         <NavLink to="/idea-submission-form">
           <Button type="submit" children={<span>Submit an Idea</span>} />
-        </NavLink>
+        </NavLink> */}
       </div>
     </>
   )
