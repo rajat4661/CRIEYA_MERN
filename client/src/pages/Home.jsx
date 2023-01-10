@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink, Route, Routes } from "react-router-dom";
-import HeroSection from '../components/HeroSection/HeroSection';
+import HeroSection from "../components/Home/HeroSection/HeroSection"
 import Button from "../components/lib/Button";
 import IdeaForm from "./IdeaForm";
 
