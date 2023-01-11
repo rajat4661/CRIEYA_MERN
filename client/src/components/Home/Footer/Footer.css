@@ -288,6 +288,9 @@ height: 70vh;
   width: 100%;
 }
 
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+  font-size: 20px;
+}
 
 .footer-left{
   width: 100%;
@@ -337,4 +340,21 @@ height: 70vh;
   background-position-x: center;
 }
 
+}
+
+@media screen and (max-width:576px) {
+
+  .footer-quick-links{
+     flex-direction: column;
+     height: 550px;
+  }
+
+  .footer-left{
+    flex-direction: row;
+  }
+
+  #Footer{
+    height: 760px;
+  }
+  
 }
