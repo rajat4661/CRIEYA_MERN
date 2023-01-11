@@ -1,7 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import IdeaForm from "./pages/IdeaForm";
-import NavigationBar from "./components/lib/NavigationBar";
 import "./App.css";
+import NavigationBar from "./components/lib/NavigationBar/NavigationBar"
+import Footer from "./components/lib/Footer/Footer"
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
@@ -20,6 +21,7 @@ function App() {
           <Route path="/signup" element={<Signup />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
         </Routes>
+        <Footer />
     </div>
   );
 }

@@ -1,6 +1,5 @@
 import React from 'react'
 import { NavLink, Route, Routes } from "react-router-dom";
-import Footer from '../components/Home/Footer/Footer';
 import HeroSection from "../components/Home/HeroSection/HeroSection"
 import Button from "../components/lib/Button";
 import IdeaForm from "./IdeaForm";
@@ -13,7 +12,6 @@ const Home = () => {
       </Routes>
       <div>
         <HeroSection />
-        <Footer/>
         {/* <p className="pt-5">WELCOME</p>
         <h1>We Are The MERN Developer</h1>
         <NavLink to="/idea-submission-form">

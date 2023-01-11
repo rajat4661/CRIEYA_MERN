@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-
-import "../../Styles/NavigationBar.css";
-
-import logo from "../../assets/images/nav_logo.svg";
-import hamburger from "../../assets/images/hamburger.svg";
-import cross from "../../assets/images/cross.svg";
+import "./NavigationBar.css";
+import logo from "../../../assets/images/nav_logo.svg";
+import hamburger from "../../../assets/images/hamburger.svg";
+import cross from "../../../assets/images/cross.svg";
 
 class NavigationBar extends Component {
   state = { clicked: false };
