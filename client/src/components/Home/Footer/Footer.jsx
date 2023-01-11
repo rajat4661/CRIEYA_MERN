@@ -20,7 +20,7 @@ const Footer = () => {
          </div>
 
          <div className="footer-right">
-            < div className="footer-quick-links">
+            <div className="footer-quick-links">
                 <div className="links">
                 
                 <h4 className='links-heading'>Security & Brand</h4>
@@ -62,7 +62,7 @@ const Footer = () => {
                     <a className="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
                     <a className="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
                     <a className="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
-                </div>
+            </div>
          </div>
 
 
