@@ -5,6 +5,7 @@
 }
 
 #Navigation {
+    position: fixed;
     display: flex;
     align-items: center;
     gap: 30px;
@@ -13,9 +14,10 @@
     border: 1px solid rgba(223, 223, 223, 0.5);
     backdrop-filter: blur(25px);
     padding: 0 4rem;
-    box-shadow: 0 1px 10px;
     border-radius: 0 0 15px 15px;
     height: 10vh;
+    width: 100%;
+    z-index: 999;
 }
 
 #Navigation-items, #Navigation-items-right {
