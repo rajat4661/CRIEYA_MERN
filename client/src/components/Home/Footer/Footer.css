@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700&family=Seymour+One&display=swap');
 /* #Footer , .footer-left , .footer-right , 
 .footer-quick-links , .footer-socials,
-.links{
+.links , .footer-crieya, .footer-copyright {
     border: 2px solid red;
 } */
 
@@ -18,10 +18,43 @@ flex-direction: row;
 }
 
 .footer-left{
-    display: flex;
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+
     width: 40%;
+    background-image: url("../../../assets/images/footer-head-black.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 5rem;
 }
 
+.footer-crieya{
+  display: grid;
+  justify-items: center; 
+   /* align-items: baseline; */
+}
+
+.footer-left img{
+  height: 55%;
+  width: 55%;
+  align-self:flex-end;
+}
+
+.footer-copyright{
+  display: grid;
+  align-items: center;
+}
+.footer-copyright h2{
+  font-family: 'Inter';
+
+font-size: 1rem;
+line-height: 1.2rem;
+text-align: center;
+
+
+color: #8996A0;
+
+}
 .footer-right{
     display: flex;
     flex-direction: column;
@@ -206,6 +239,7 @@ textarea {
   background: #fefefe;
   border-color: #125688;
 }
+
 
 
 

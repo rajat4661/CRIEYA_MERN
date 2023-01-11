@@ -1,12 +1,22 @@
 import React from 'react'
+import footercrieya from '../../../assets/images/footer-crieya.svg'
+
 import "./Footer.css"
+
 const Footer = () => {
   return (
     <>
     
     <div id='Footer'>
          <div className="footer-left">
-
+            <div className='footer-crieya'>
+                    <img src={footercrieya} alt="" />
+            </div>
+            <div className='footer-copyright'>
+                <h2>© 2022 All rights reserved </h2>
+                
+            </div>
+                    
          </div>
 
          <div className="footer-right">
