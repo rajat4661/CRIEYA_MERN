@@ -12,9 +12,11 @@
     "axios": "^1.2.2",
     "bootstrap": "^5.2.3",
     "react": "^18.2.0",
+    "react-countup": "^6.4.0",
     "react-dom": "^18.2.0",
     "react-jwt": "^1.1.7",
     "react-router-dom": "^6.6.1",
+    "react-visibility-sensor": "^5.1.1",
     "web-vitals": "^3.1.0"
   },
   "devDependencies": {
