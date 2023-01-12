@@ -283,6 +283,9 @@ textarea {
     width: 100%;
   }
 
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+  font-size: 20px;
+}
 
   .footer-left {
     width: 100%;
@@ -329,4 +332,33 @@ textarea {
     background-position-x: center;
   }
 
+}
+
+@media screen and (max-width:576px) {
+
+  .footer-quick-links{
+     flex-direction: column;
+     height: 550px;
+  }
+
+  .footer-left{
+   
+  }
+  .footer-crieya{
+  
+    height: 140px;
+   
+    
+  }
+  .footer-crieya img{
+    align-self: center;
+  }
+
+
+  #Footer{
+    height: 790px;
+    background-position-y:bottom;
+    background-position-x: 45px;
+  }
+  
 }
