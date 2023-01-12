@@ -1,0 +1,23 @@
+<svg width="503" height="346" viewBox="0 0 503 346" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_833_462" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="503" height="346">
+<path d="M502.348 246C502.348 293.14 502.348 316.711 487.703 331.355C473.058 346 449.488 346 402.348 346H100.375C53.2343 346 29.664 346 15.0194 331.355C0.374725 316.711 0.374725 293.14 0.374725 246V0.21637H402.348C449.488 0.21637 473.058 0.21637 487.703 14.861C502.348 29.5057 502.348 53.0759 502.348 100.216V246Z" fill="url(#paint0_radial_833_462)"/>
+</mask>
+<g mask="url(#mask0_833_462)">
+<mask id="path-2-inside-1_833_462" fill="white">
+<rect x="-79.9771" y="-80.1354" width="229.319" height="229.319" rx="36"/>
+</mask>
+<rect x="-79.9771" y="-80.1354" width="229.319" height="229.319" rx="36" stroke="white" stroke-opacity="0.13" stroke-width="94" mask="url(#path-2-inside-1_833_462)"/>
+<mask id="path-3-inside-2_833_462" fill="white">
+<rect x="-79.9771" y="-70.2043" width="156.189" height="156.189" rx="36"/>
+</mask>
+<rect x="-79.9771" y="-70.2043" width="156.189" height="156.189" rx="36" stroke="white" stroke-opacity="0.13" stroke-width="94" mask="url(#path-3-inside-2_833_462)"/>
+<rect x="-56.4771" y="-56.6354" width="251.836" height="251.836" rx="48.5" stroke="white" stroke-opacity="0.13" stroke-width="47"/>
+<rect x="-79.0479" y="-79.2061" width="348.439" height="348.439" rx="89.5" stroke="white" stroke-opacity="0.13" stroke-width="47"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_833_462" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.37474 0.21638) rotate(34.561) scale(609.543 569.521)">
+<stop stop-color="#8948FF"/>
+<stop offset="0.575167" stop-color="#BC95FF"/>
+</radialGradient>
+</defs>
+</svg>
