@@ -211,4 +211,18 @@ position: relative;
 
 
 
+.box-2 h3 {
+ 
+    width: 61%;
+    text-align: left;
+    left: 10px;
+    
+}
 
+.box-3 h3 {
+    top: 17px;
+    width: 61%;
+    text-align: right;
+    left: 114px;
+    
+}

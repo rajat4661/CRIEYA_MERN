@@ -72,7 +72,7 @@ const Counter = () => {
 
            <div className="counter-box box-3">
            <img src={box3}alt="" />  
-           <h3>Projects Funded</h3>
+           <h3 >Projects Funded</h3>
            <h1> <CountUp
                 start={0}
                 end={box_3_end}
