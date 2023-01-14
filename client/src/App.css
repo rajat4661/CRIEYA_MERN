@@ -12,7 +12,13 @@
   display: none;  /* Safari and Chrome */
 }
 .App {
-
+  background-image: url("./assets/images/background.png");
+  height: 100vh;
+ 
+  background-size: cover;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
   width: inherit;
 }
 

@@ -12,7 +12,7 @@ const Home = () => {
       <Routes>
         <Route path="/idea-submission-form" element={<IdeaForm />} />
       </Routes>
-      <div className='background'>
+      <div>
         <HeroSection />
         <Counter />
         {/* <p className="pt-5">WELCOME</p>
