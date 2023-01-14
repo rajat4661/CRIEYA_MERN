@@ -42,7 +42,7 @@ const Counter = () => {
                <CountUp
                 start={1}
                 end={box_1_end}
-                duration={2.4}
+                duration={1.8}
                
                />
                    <sup>+</sup>
@@ -58,7 +58,7 @@ const Counter = () => {
             <CountUp
                 start={1}
                 end={box_2_end}
-                duration={3}
+                duration={1.8}
                
                /><sup>+</sup></h1>
             <h3>Projects  Incubated</h3>
@@ -76,7 +76,8 @@ const Counter = () => {
            <h1> <CountUp
                 start={0}
                 end={box_3_end}
-                duration={1.8}
+                
+                duration={3.7}
                
                />
              Cr<sup>+</sup></h1>
@@ -89,7 +90,7 @@ const Counter = () => {
            <CountUp
                 start={1}
                 end={box_4_end}
-                duration={2.9}
+                duration={1.8}
                
                /><sup>+</sup></h1>
            </div>

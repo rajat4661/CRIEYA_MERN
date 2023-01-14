@@ -12,11 +12,7 @@
   display: none;  /* Safari and Chrome */
 }
 .App {
-  background-image: url("./assets/images/hero_section_image.png");
-  height: 100vh;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  background-position: center;
+
   width: inherit;
 }
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import "../Styles/Home.css"
 import { NavLink, Route, Routes } from "react-router-dom";
 import HeroSection from "../components/Home/HeroSection/HeroSection"
 import Button from "../components/lib/Button";
@@ -11,7 +12,7 @@ const Home = () => {
       <Routes>
         <Route path="/idea-submission-form" element={<IdeaForm />} />
       </Routes>
-      <div>
+      <div className='background'>
         <HeroSection />
         <Counter />
         {/* <p className="pt-5">WELCOME</p>
