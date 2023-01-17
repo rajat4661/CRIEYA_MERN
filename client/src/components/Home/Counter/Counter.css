@@ -9,6 +9,9 @@
     gap: 10px;
 }
 
+
+ 
+
 .counter-row-1 , .counter-row-2{
     display: flex;
     flex-direction: row;
@@ -226,3 +229,23 @@ position: relative;
     left: 114px;
     
 }
+
+#counter div{
+    /* border: 2px solid red; */
+}
+
+#journey{
+    width: 100%;
+}
+
+#journey h1 {
+    padding-left: 15px;
+    font-family: 'Inter';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 2.1rem;
+ line-height: 45px;
+ text-align: left;
+ 
+ color: #4C3E63;
+ }

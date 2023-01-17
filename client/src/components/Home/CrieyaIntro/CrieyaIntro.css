@@ -1,0 +1,76 @@
+.intro{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+ 
+    
+    
+}
+
+.intro h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 47px;
+display: flex;
+align-items: center;
+
+color: #4C3E63;
+}
+
+.intro h3{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 25px;
+letter-spacing: 0.0025em;
+
+color: #433D4E;
+}
+.intro img{
+    width: 200px;
+    height: 375px;
+    /* border: 2px solid yellow; */
+}
+
+.about-crieya{
+    overflow-y: scroll;
+    width: 60%;
+    height: 84%;
+    padding: 25px 25px;
+    position:relative;
+    right:100px;
+    opacity: 90%;
+
+    
+/* border: 2px solid green;  */
+background: radial-gradient(100% 119.72% at 100% 0%, rgba(162, 107, 255, 0.34) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(62.81% 150.41% at 7.1% 87.18%, rgba(255, 182, 182, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(255, 255, 255, 0.38);
+box-shadow: inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+backdrop-filter: blur(17px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 41px;
+}
+
+.about-crieya::-webkit-scrollbar{
+    display: none;  
+}
+
+.about-crieya:hover{
+    /* border: 2px solid red; */
+    transition: 0.3s ease-in-out;
+    background: radial-gradient(70% 179.72% at 100% 0%, rgba(162, 107, 255, 0.34) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(62.81% 150.41% at 7.1% 87.18%, rgba(255, 182, 182, 0.2) 0%, rgba(255, 255, 255, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, rgba(255, 255, 255, 0.38);
+box-shadow: inset 0px 84px 94px rgba(255, 255, 255, 0.25);
+backdrop-filter: blur(47px);
+    
+}
+
+.intro img:hover{
+    
+   transition: 0.5s ease-in;
+   z-index: 1;
+}

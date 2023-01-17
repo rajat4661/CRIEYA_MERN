@@ -33,6 +33,9 @@ const Counter = () => {
   return (
     <>
      <div id="counter">
+      <div id='journey'>
+         <h1 >Our Journey So far</h1>
+      </div>
       <div className="counter-row-1">
 
          <div className="counter-box box-1">
