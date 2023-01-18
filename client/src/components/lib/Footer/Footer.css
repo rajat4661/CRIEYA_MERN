@@ -78,6 +78,12 @@
   padding-top: 1.5rem;
 }
 
+.links a:hover{
+  transition: 0.3s ease-in-out;
+  font-size: 104%;
+  color: white;
+}
+
 .links-heading {
   text-align: center;
   line-height: 3rem;

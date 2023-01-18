@@ -36,9 +36,9 @@ const HeroSection = () => {
           </div>          
         </div>
       </div>
-        <div className="blur-effect">
-          {/* <img src={BlurLayer} alt="" /> */}abcd
-        </div>
+        {/* <div className="blur-effect">
+     
+        </div> */}
     </>
   );
 };

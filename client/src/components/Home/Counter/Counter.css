@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 #counter{
-    border: 2px solid red;
+   
     height: 38rem;
     display: flex;
     flex-direction: column;
@@ -8,6 +8,9 @@
     align-items: center;
     gap: 10px;
 }
+
+
+ 
 
 .counter-row-1 , .counter-row-2{
     display: flex;
@@ -211,4 +214,38 @@ position: relative;
 
 
 
+.box-2 h3 {
+ 
+    width: 61%;
+    text-align: left;
+    left: 10px;
+    
+}
 
+.box-3 h3 {
+    top: 17px;
+    width: 61%;
+    text-align: right;
+    left: 114px;
+    
+}
+
+#counter div{
+    /* border: 2px solid red; */
+}
+
+#journey{
+    width: 100%;
+}
+
+#journey h1 {
+    padding-left: 15px;
+    font-family: 'Inter';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 2.1rem;
+ line-height: 45px;
+ text-align: left;
+ 
+ color: #4C3E63;
+ }
